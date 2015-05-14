@@ -1,0 +1,30 @@
+Write a JavaScript function that takes a sentence as an argument
+  and determines which word in that sentence has the greatest number of repeated letters.
+
+  split on " " first => words
+
+  split on "" = > words to letter array
+
+  ck for uniqueness by comparing each letter and incrementing a count  =  count || 0
+
+  function wordSelector(string){
+
+}
+
+
+
+
+If the sentence has multiple words with the same max of repeated letters,
+return them all in an Array.
+
+
+
+
+
+
+Test Case:
+
+wordSelector("I attribute my success to this: I never gave or took any excuse. –Florence Nightingale")
+Would select the words:
+
+["attribute", "success"]
